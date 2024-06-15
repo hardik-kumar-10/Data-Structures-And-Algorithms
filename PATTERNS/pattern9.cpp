@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
     int n ;
+    cout<<"enter the number";
     cin >>n;
-    int row=1; 
-     
+    int row=1;  
     while(row<=n)
       {
       int col=1;
@@ -20,6 +20,4 @@ int main(){
       row=row+1;
 
       }
-
-
 }
